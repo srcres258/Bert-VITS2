@@ -210,4 +210,4 @@ if __name__ == "__main__":
         )
 
     webbrowser.open("http://127.0.0.1:7860")
-    app.launch(share=args.share)
+    app.launch(share=ture)
