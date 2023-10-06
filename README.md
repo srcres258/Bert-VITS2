@@ -4,7 +4,6 @@ VITS2 Backbone with bert
 ### 严禁将此项目用于一切违反《中华人民共和国宪法》，《中华人民共和国刑法》，《中华人民共和国治安管理处罚法》和《中华人民共和国民法典》之用途。
 ### 严禁用于任何政治相关用途。
 #### 基于b站up主团子是咸鱼的视频教程制作【Bert-Vits2 手把手本地部署录屏教程【已适配V1.1】】 https://www.bilibili.com/video/BV18N4y1Q7JK/?share_source=copy_web&vd_source=0850903c2c3f5ed7b220c9bda4e285f6
-## References
 ## 原仓库链接：https://github.com/Stardust-minus/Bert-VITS2
 ## 基于原仓库有文件的修改
 ## 感谢所有贡献者作出的努力
@@ -15,7 +14,7 @@ VITS2 Backbone with bert
 + 2.音频切割工具slicer-gui 
 + 3.数据处理和标注工具，来自b站up主领航员未鸟【Bert-VITS2/VITS】更快更准确！自动标注一键包来啦】 https://www.bilibili.com/video/BV1dr4y1X7RL/?share_source=copy_web&vd_source=0850903c2c3f5ed7b220c9bda4e285f6
 ## 1.克隆仓库
-+ !git clone https://github.com/fishaudio/Bert-VITS2
++ !git https://github.com/MengXing15646/Bert-VITS2
 ### 准备工作，数据集的准备
 + 1.原始数据音频必须是.wav格式，使用slicer-gui将文件切割为短于20s的音频
 + 2.按照【Bert-VITS2/VITS】更快更准确！自动标注一键包来啦】 https://www.bilibili.com/video/BV1dr4y1X7RL/?share_source=copy_web&vd_source=0850903c2c3f5ed7b220c9bda4e285f6教程处理数据
