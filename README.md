@@ -5,7 +5,8 @@ VITS2 Backbone with bert
 ### 严禁用于任何政治相关用途。
 #### 基于b站up主团子是咸鱼的视频教程制作【Bert-Vits2 手把手本地部署录屏教程【已适配V1.1】】 https://www.bilibili.com/video/BV18N4y1Q7JK/?share_source=copy_web&vd_source=0850903c2c3f5ed7b220c9bda4e285f6
 ## References
-## 原仓库链接：https://github.com/Stardust-minus/Bert-VITS2，基于原仓库有文件的修改
+## 原仓库链接：https://github.com/Stardust-minus/Bert-VITS2
+## 基于原仓库有文件的修改
 ## 感谢所有贡献者作出的努力
 ## colab训练脚本
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19fxpo-ZoL_ShEUeZIZi6Di-YioWrEyhR#scrollTo=0gQcIZ8RsOkn)
