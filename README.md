@@ -8,8 +8,7 @@ VITS2 Backbone with bert
 ## 基于原仓库有文件的修改
 ## 感谢所有贡献者作出的努力
 ## colab训练脚本
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19fxpo-ZoL_ShEUeZIZi6Di-YioWrEyhR#scrollTo=0gQcIZ8RsOkn)
-"<a href=\"https://colab.research.google.com/github/MengXing15646/Bert-VITS2/blob/master/bert_vits.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NizFCPdnmvp2SDFXqB-ijN2YrhQ1h02D?authuser=1)
 
 ## 需要事先的准备工作：
 + 1.若干时长的高质量语音文本  
