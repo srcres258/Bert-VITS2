@@ -14,7 +14,7 @@ VITS2 Backbone with bert
 + 2.音频切割工具slicer-gui 
 + 3.数据处理和标注工具，来自b站up主领航员未鸟【Bert-VITS2/VITS】更快更准确！自动标注一键包来啦】 https://www.bilibili.com/video/BV1dr4y1X7RL/?share_source=copy_web&vd_source=0850903c2c3f5ed7b220c9bda4e285f6
 ## 1.克隆仓库
-+ !git https://github.com/MengXing15646/Bert-VITS2
++ !git clone https://github.com/MengXing15646/Bert-VITS2
 ### 准备工作，数据集的准备
 + 1.原始数据音频必须是.wav格式，使用slicer-gui将文件切割为短于20s的音频
 + 2.按照【Bert-VITS2/VITS】更快更准确！自动标注一键包来啦】 https://www.bilibili.com/video/BV1dr4y1X7RL/?share_source=copy_web&vd_source=0850903c2c3f5ed7b220c9bda4e285f6教程处理数据
