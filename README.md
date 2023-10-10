@@ -4,8 +4,8 @@ VITS2 Backbone with bert
 ### 严禁将此项目用于一切违反《中华人民共和国宪法》，《中华人民共和国刑法》，《中华人民共和国治安管理处罚法》和《中华人民共和国民法典》之用途。
 ### 严禁用于任何政治相关用途。
 #### 基于b站up主团子是咸鱼的视频教程制作【Bert-Vits2 手把手本地部署录屏教程【已适配V1.1】】 https://www.bilibili.com/video/BV18N4y1Q7JK/?share_source=copy_web&vd_source=0850903c2c3f5ed7b220c9bda4e285f6
-+ 请配合教程视频食用：BV1zC4y1V7tX
-+【免费显卡?Bert-VITS2 colab脚本在线训练 教你免费在线训练属于自己的虚拟音声-哔哩哔哩】 https://b23.tv/gJWyXEs
+## 请配合教程视频食用：BV1zC4y1V7tX
+##【免费显卡?Bert-VITS2 colab脚本在线训练 教你免费在线训练属于自己的虚拟音声-哔哩哔哩】 https://b23.tv/gJWyXEs
 ## 原仓库链接：https://github.com/Stardust-minus/Bert-VITS2
 ## 基于原仓库有文件的修改
 ## 感谢所有贡献者作出的努力
