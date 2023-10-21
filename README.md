@@ -33,7 +33,7 @@ VITS2 Backbone with bert
   !pip install -r requirements.txt
 ## 4.下载必要的模型到对应目录
   hugging face不提供直链下载，使用二次分发下载模型
-  !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/flax_model.msgpack
+ ``` !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/flax_model.msgpack
   !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/pytorch_model.bin
   !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/tf_model.h5
 ## 5.下载底模到对应文件夹
