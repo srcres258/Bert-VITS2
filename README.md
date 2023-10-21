@@ -27,29 +27,29 @@ VITS2 Backbone with bert
 # 至此准备工作完成，开始训练
 
 ## 2.安装cuda，colab自带，建议重新安装一个11.8的版本
-  !pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  `!pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118`
 ## 3.安装需要的依赖
-  %cd /content/Bert-VITS2/
-  !pip install -r requirements.txt
+`  %cd /content/Bert-VITS2/
+  !pip install -r requirements.txt`
 ## 4.下载必要的模型到对应目录
   hugging face不提供直链下载，使用二次分发下载模型
- ``` !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/flax_model.msgpack
+ ` !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/flax_model.msgpack
   !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/pytorch_model.bin
-  !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/tf_model.h5
+  !wget -P bert/chinese-roberta-wwm-ext-large/ https://huggingface.co/hfl/chinese-roberta-wwm-ext-large/resolve/main/tf_model.h5`
 ## 5.下载底模到对应文件夹
- !wget -P logs/ztt/ https://huggingface.co/Erythrocyte/bert-vits2_base_model/resolve/main/DUR_0.pth
+ `!wget -P logs/ztt/ https://huggingface.co/Erythrocyte/bert-vits2_base_model/resolve/main/DUR_0.pth
  !wget -P logs/ztt/ https://huggingface.co/Erythrocyte/bert-vits2_base_model/resolve/main/D_0.pth
- !wget -P logs/ztt/ https://huggingface.co/Erythrocyte/bert-vits2_base_model/resolve/main/G_0.pth
+ !wget -P logs/ztt/ https://huggingface.co/Erythrocyte/bert-vits2_base_model/resolve/main/G_0.pth`
 ## 6.重采样
- !python resample.py
+` !python resample.py`
 ## 7.执行preprocess_text.py
- !python preprocess_text.py
+`!python preprocess_text.py`
 ## 8.执行!python bert_gen.py
-!python bert_gen.py
+`!python bert_gen.py`
 ## 9.开始训练
- !python train_ms.py -m ztt -c configs/config.json
+ `!python train_ms.py -m {datasetname} -c configs/config.json`
 ## 10.在线推理
- !python webui.py
+`!python webui.py`
 
 
 
