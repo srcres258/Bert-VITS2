@@ -22,8 +22,8 @@ from text.cleaner import clean_text
     default="configs/config.json",
     type=click.Path(exists=True, file_okay=True, dir_okay=False),
 )
-@click.option("--val-per-spk", default=4)
-@click.option("--max-val-total", default=8)
+@click.option("--val-per-spk", default=8)
+@click.option("--max-val-total", default=16)
 @click.option("--clean/--no-clean", default=True)
 def main(
     transcription_path: str,
