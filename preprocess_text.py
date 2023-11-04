@@ -11,7 +11,7 @@ from text.cleaner import clean_text
 @click.command()
 @click.option(
     "--transcription-path",
-    default="filelists/datasetname.list",
+    default="filelists/kled.list",
     type=click.Path(exists=True, file_okay=True, dir_okay=False),
 )
 @click.option("--cleaned-path", default=None)

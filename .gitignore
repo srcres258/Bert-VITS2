@@ -162,7 +162,10 @@ cython_debug/
 .DS_Store
 /models
 /logs
+/dataset
+# Disgusted by GitHub's bandwidth LFS policy. Avoid transporting large files by not putting it into the Git repository.
+/raw
 
 filelists/*
-!/filelists/esd.list
+!/filelists/kled.list
 data/*
