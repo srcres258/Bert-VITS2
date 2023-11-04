@@ -21,10 +21,16 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--sr", type=int, default=44100, help="sampling rate")
     parser.add_argument(
-        "--in_dir", type=str, default="." + os.path.sep + "raw", help="path to source dir"
+        "--in_dir",
+        type=str,
+        default="." + os.path.sep + "raw",
+        help="path to source dir",
     )
     parser.add_argument(
-        "--out_dir", type=str, default="." + os.path.sep + "dataset", help="path to target dir"
+        "--out_dir",
+        type=str,
+        default="." + os.path.sep + "dataset",
+        help="path to target dir",
     )
     args = parser.parse_args()
     # processes = 8
